@@ -1,12 +1,3 @@
-.header{
-    background-color: blueviolet;
-    color: white;
-    display: flex;  
-    flex-direction: column;
-
-    
-    gap: 2em;
-}
 
 .fondoRojo{
     background-color: red;
@@ -30,4 +21,65 @@
  }
  .certerY{
     align-items: center;
- }  
+ }
+ .header{
+    position: relative;
+    height: 40vh;
+    background-color: blueviolet;
+    color: white;
+    display: flex;  
+    flex-direction: column;
+    gap: 2em;
+    padding: .5em;
+}
+
+ .header-superior{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1em;
+ }
+
+ .buscador{
+    position: absolute;
+    background-color: rgb(79, 198, 245);
+    bottom: -1.25em;
+    width: 80%;
+    left: 10%;
+    padding: 0.5em;
+    border-radius: 1em;
+    gap: 0,5em;
+
+    input {
+        background-color: rgb(68, 68, 68);
+        height: 2.5em;
+        border: none;
+        padding: 0,5em;
+    }
+    .cuadrado{
+        width: 2.5em;
+        height: 2.5em;
+        background-color: rgb(36, 35, 35);
+        border-radius: 0.5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+ }
+ .Bienvenida{
+    position: absolute;
+    bottom: 3em;
+    width: 90%;
+    text-align: left;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2em;
+    h1, p{
+        margin: 0;
+    }
+ }
+ .Bienvenida h1{
+    font-size: 1.5em;
+ }

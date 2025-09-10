@@ -4,7 +4,7 @@ import Header from './Header/Header'
 const Landing = () => {
   return (
     <div>
-        <Header />
+        <Header usuario="Dylan" />
 
     </div>
   )
